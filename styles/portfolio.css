@@ -49,6 +49,9 @@ nav {
 
 
 /* Shared Style */
+.secondary-bg{
+   background-color: #FFF8F3;
+}
 
 .text-primary{
     color: #FD6E0A;
@@ -64,6 +67,18 @@ nav {
 .dark-3{
     color: #757575;
 }
+
+.section-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+
 
 .btn-style{
     background-color: #FD6E0A;
@@ -98,4 +113,25 @@ nav {
     font-size: 18px;
     width: 585px;
     height: 60px;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-descripti{
+    font-weight: 600;
 }
